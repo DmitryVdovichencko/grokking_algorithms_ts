@@ -1,5 +1,6 @@
 {  
-  "presets": [    
+  "presets": [
+  	"@babel/typescript",    
     ["@babel/preset-env",
       {         
         "targets": {          
@@ -7,5 +8,9 @@
         }     
       }    
     ]  
-  ]
+  ],
+  // "plugins": [
+  // 	"@babel/plugin-proposal-class-propeties",
+  // 	"@babel/plugin-proposal-object-rest-spread"
+  // ]
 }
